@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AFC - Absolutely Fried Chicken</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script>
+        function showMenu() {
+            window.open('AFC Menu.pdf', '_blank');
+        }
+    </script>
+</head>
+<body>
+    <div class="container">
+        <h1>Welcome to "AFC" Kondapur</h1>
+        <a href="https://www.instagram.com/afc_kondapur?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" target="_blank">Follow us on Instagram</a>
+        <a href="https://g.co/kgs/vcuNi6b" target="_blank">Review us on Google Maps</a>
+        <a href="https://www.afcofficial.in/franchise" target="_blank">For Franchise</a>
+        <a href="https://drive.google.com/file/d/1sj4KowEdEumK17bevnLnVKiAeDsSOXwb/view?usp=sharing" target="_blank">AFC Menu</a>
+        <a href="https://afcofficial.in" target="_blank">AFC Website</a>
+        <a href="javascript:void(0)" onclick="showOffers()">Exclusive Offers</a>
+    <div id="offers" style="display:none; background-color:#ffb302; padding: 20px; margin-top: 20px;">
+        <h2>Exclusive Offers</h2>
+        <p>&diams;Follow our instagram page and review us on maps for  <b>Coke Treat</b></p>
+        <!-- <p>Buy 1 Get 1 Free on all burgers every Friday!</p> -->
+        <p>&diams;Make an instagram post and invite colab for instant <b>10% Discount</b></p>
+    </div>
+    <script>
+        function showOffers() {
+        var offersDiv = document.getElementById('offers');
+        if (offersDiv.style.display === 'none') {
+            offersDiv.style.display = 'block';
+        } else {
+            offersDiv.style.display = 'none';
+        }
+        }
+    </script>
+    </div>
+</body>
+</html>
